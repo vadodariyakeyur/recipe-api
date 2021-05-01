@@ -19,6 +19,7 @@ services:
       - DB_PASS=supersecretpassword
     depends_on:
       - db
+    entrypoint: ./wait-for-postgres.sh postgres 5432
 
   db:
     image: postgres:10-alpine
