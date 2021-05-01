@@ -11,4 +11,4 @@ before_script: [
                  ]
 
 script:
-  - docker-compose run app sh -c "python manage.py test && flake8"
+  - docker-compose run app sh -c "bash ./wait-for-postgres.sh db 5432 python manage.py test && flake8"
