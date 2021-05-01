@@ -19,7 +19,11 @@ services:
       - DB_PASS=supersecretpassword
     depends_on:
       - db
-    entrypoint: ./wait-for-postgres.sh postgres 5432
+    entrypoint: sh -c "bash ./wait-for-postgres.sh db 5432 python manage.py test &&
+              flake8 &&
+              python manage.py wait_for_db &&
+              python manage.py migrate &&
+              python manage.py runserver 0.0.0.0:8000"
 
   db:
     image: postgres:10-alpine
