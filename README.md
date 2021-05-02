@@ -1,8 +1,7 @@
 # Recipe REST API
 ## **Made with:**  
 
-<img src="https://wallpapersfortech.com/?attachment_id=13195" alt="Python Logo" height="180"/>
-<img src="https://soshace.com/wp-content/uploads/2021/01/879-png-3.png" alt="Django + Django REST Framework Logo" height="180"/>
+<img src="https://wallpapersfortech.com/?attachment_id=13195" alt="Python Logo" height="200"/> <img src="https://soshace.com/wp-content/uploads/2021/01/879-png-3.png" alt="Django + Django REST Framework Logo" height="200"/>
 
 \
 <img src="https://techcrunch.com/wp-content/uploads/2015/09/docker-dark.png?w=1390&crop=1" height="200"/>
