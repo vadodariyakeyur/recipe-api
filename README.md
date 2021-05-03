@@ -29,6 +29,8 @@ $ docker-compose run --rm app sh -c "bash ./wait-for-postgres.sh db 5432 python 
 $ docker-compose up
 ```
 
+- - - - 
+
 ## Create superuser
 
 ```sh
